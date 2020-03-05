@@ -1,0 +1,38 @@
+:global
+  .rs-btn {
+    background: green !important;
+  }
+
+.child
+  background: red
+
+.greatElement {
+  background: aqua;
+  color: purple;
+
+  .child {
+    background: red;
+
+    .child {
+      background: red;
+
+      .child {
+        background: red;
+
+        .child {
+          background: red;
+
+          .child {
+            background: red;
+          }
+        }
+
+      }
+
+    }
+  }
+
+  &:hover {
+    color: lawngreen;
+  }
+}
